@@ -1,0 +1,399 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Tambahkan CSS untuk menu-icon */
+
+.menu-icon {
+    display: none;
+    float: right;
+    color: #ffa500;
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #ffebcd;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 3px solid #ffa500;
+}
+
+.header-left {
+    float: left;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-right {
+    float: right;
+    margin-left: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 20px;
+    color: #ffa500;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+.account {
+    margin-left: 50px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/* top-wrapper */
+
+.top-wrapper {
+    background-color: #ffebcd;
+    padding: 250px 0 200px 0;
+    background-size: cover;
+    color: #ffa500;
+}
+
+.top-left {
+    width: 50%;
+    float: left;
+}
+
+.top-left h2 {
+    font-weight: normal;
+    font-size: medium;
+    width: 70%;
+    line-height: 25px;
+}
+
+.fa-angle-double-down {
+    padding-right: 5px;
+}
+
+.top-left h1 {
+    font-size: 60px;
+    line-height: 70px;
+    /* letter-spacing: 5px; */
+    width: 80%;
+    margin-top: 10px;
+}
+
+.started {
+    margin-top: 50px;
+    padding: 15px 30px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ffa500;
+}
+
+.top-right {
+    width: 50%;
+}
+
+
+/* features */
+
+.features-wrapper {
+    text-align: center;
+    padding: 180px 0;
+    /* background-color: whitesmoke; */
+}
+
+.heading {
+    padding-bottom: 120px;
+}
+
+.heading h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #ffa500;
+}
+
+.heading p {
+    color: #8d8b8d;
+    line-height: 25px;
+}
+
+.features {
+    margin-bottom: 80px;
+    color: #ffa500;
+}
+
+.feature {
+    float: left;
+    width: 33.3%;
+}
+
+.feature h3 {
+    font-size: large;
+}
+
+.fa-laptop {
+    background-color: #fcd331;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fa-comment {
+    background-color: #fa8072;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.fa-file {
+    background-color: #6495ed;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* tutor-wrapper */
+
+.tutor-wrapper {
+    padding: 180px 0 400px 0;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center; */
+    /* align-content: center; */
+}
+
+.tutor img {
+    width: 70px;
+    float: left;
+    margin-right: 10px;
+    padding: 7px 0;
+}
+
+.tutor-left {
+    float: left;
+    /* width: 50%; */
+    background-color: #ffebcd;
+    padding: 50px 30px 25px 30px;
+    border-radius: 20px;
+    /* margin-left: 50px; */
+}
+
+.tutor {
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.tutor h3 {
+    margin: 0;
+    color: #ffa500;
+}
+
+.tutor p {
+    font-size: small;
+    line-height: 20px;
+    color: #8d8b8d;
+}
+
+.tutor-right {
+    /* background-color: #fcd331; */
+    float: right;
+    width: 50%;
+    margin-top: -20px;
+    padding: 20px;
+    padding-top: -50px;
+}
+
+.tutor-right h2 {
+    color: #ffa500;
+    font-size: 40px;
+}
+
+.tutor-right p {
+    color: #8d8b8d;
+    line-height: 25px;
+}
+
+.btn-learn {
+    background-color: #ffa500;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* courses-wrapper */
+
+.courses-wrapper {
+    padding: 100px 0 500px 0;
+    margin: 0 auto;
+}
+
+.courses-wrapper h2 {
+    font-size: 40px;
+    color: #ffa500;
+}
+
+.courses-wrapper p {
+    color: #8d8b8d;
+    line-height: 25px;
+}
+
+a.all-course {
+    display: block;
+    /* to the right */
+    text-align: right;
+    /* to the right */
+    padding-bottom: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ffa500;
+}
+
+
+/* .courses {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+} */
+
+.course {
+    float: left;
+    width: 33.3%;
+}
+
+.course img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    margin-bottom: -30px;
+}
+
+.course-text {
+    background-color: white;
+    padding: 0 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.course-text h3 {
+    color: #ffa500;
+    font-size: 20px;
+    margin-bottom: -10px;
+    /* margin: -20px 0 -10px 0; */
+}
+
+.course-text p {
+    color: #8d8b8d;
+    font-size: 13px;
+}
+
+
+/* subscribe-wrapper */
+
+.subscribe-wrapper {
+    padding: 80px 0;
+    background-color: #ffebcd;
+    text-align: center;
+    color: #ffa500;
+    margin: 0 auto;
+}
+
+.subscribe-wrapper p {
+    margin-top: -20px;
+    color: #8d8b8d;
+}
+
+.email {
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.email-box {
+    width: 35%;
+    margin-right: -10px;
+    color: #8d8b8d;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+.email-submit {
+    border: none;
+    background-color: #ffa500;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 12%;
+}
+
+.email-submit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+footer {
+    padding: 20px 0 10px 0;
+    background-color: whitesmoke;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer p {
+    color: #8d8b8d;
+    font-size: 15px;
+    margin-top: 5px;
+}

@@ -1,0 +1,75 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .header-right {
+        font-size: 80%;
+    }
+    .account {
+        margin-left: 20px;
+    }
+    .top-wrapper h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .tutor-left {
+        width: 50%;
+    }
+    .tutor-right {
+        margin-top: -35px;
+    }
+    .course img {
+        width: 250px;
+    }
+    /* Tambahkan CSS untuk menu-icon */
+    /* .menu-icon {
+      display: block;
+    } */
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        display: block;
+    }
+    .btn {
+        width: 50%;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .top-wrapper {
+        text-align: left;
+        padding-top: 200px;
+    }
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .course {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .course img {
+        margin: 0 auto;
+    }
+    .course-text {
+        text-align: center;
+        margin-left: 200px;
+    }
+    footer {
+        text-align: center;
+    }
+}
